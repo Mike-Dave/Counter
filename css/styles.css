@@ -1,0 +1,57 @@
+body {
+  font-family: "Bree Serif", serif;
+  text-align: center;
+  height: 100vh;
+  overflow-x: hidden;
+  color: #1b2430;
+  background-color: #f6fbf4;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+p {
+  font-size: 7rem;
+  margin: 20px;
+}
+.button-box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+button {
+  margin-top: 20px;
+  padding: 20px 30px;
+  font-size: 1rem;
+  font-family: "Bree Serif", serif;
+  outline: none;
+  border-radius: 12px;
+  border-color: #ece5c7;
+  border: 2px solid #fff;
+  background-color: #1b2430;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #faf0d7;
+}
+@media (max-width: 780px) {
+  html {
+    font-size: 50%;
+  }
+  .button-box {
+    gap: 15px;
+  }
+  button {
+    font-size: 1.2rem;
+    padding: 20px 20px;
+  }
+}
